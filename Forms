@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="en" dir="ltr">
+<head>
+<style media="screen">
+
+body{
+border:1px solid #CCC;
+align-items: center;
+display: flex;
+justify-content: center;
+background: green;
+}
+.Title{
+text-align: center;
+padding-bottom: 50px;
+
+}
+.details{
+text-align: center;
+
+}
+</style>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+
+<!-- HTML FORMS -->
+
+<Form>
+<label><h3>First Name :</label></h3>
+<input type="Name" value="Santhosh Kumar K" /><br>
+<label><h3>Password :</label></h3>
+<input type="Password" value="1234567890" /><br>
+<label><h3>Register No :</label></h3>
+<input type="Register No" value="1905318" /><br>
+
+<label><h3>Select a Course :</h3></label>
+<select>
+<option>HTML</option>
+<option>CSS</option>
+<option>Javascript</option>
+<option>Java</option>
+</select>
+
+<label><h3>Department :</h3></label>
+<select>
+<option>Mechanical Engineering</option>
+<option>Computer Science Engineering</option>
+<option>Electrical and Electronics Engineering</option>
+<option>Electrical and Communication Engineering</option>
+</select>
+
+<Label><h3>Name of the College :</label></h3>
+<input type="College" Value="Sri Ramakrishna Institute of Technology" /><br>
+
+<h3> Select Gender : </h3>
+
+<label> Male </label> <input type="radio" name="Gender"/>
+<label> Female </label> <input type="radio" name="Gender"/>
+<label> Others </label> <input type="radio" name="Gender"/>
+
+<br>
+
+<label><h3>Date of Birth :</h3></label>
+<input type="Date" value=" /><br>
+<label><h3>Upload Your Resume</h3></label><br>
+<input type="file" />
+<br>
+
+<Label><h3>Remarks :</label></h3>
+<textarea cols="20" rows="10" />
+ 
+
+</textarea><br>
+
+
+<input type="Submit" />
+</Form>
+</body>
+</html>
